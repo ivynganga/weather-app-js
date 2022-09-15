@@ -7,10 +7,6 @@ let submit = id('submit');
 
 const apikey = '';
 
-<<<<<<< HEAD
-=======
-console.log('city = ' + city.value);
->>>>>>> 2c6cce2df5e1e75e57e48fdb3698cda1bdc72fcf
 if (form !== undefined && form !== null && submit !== undefined && submit !== null){
 	form.addEventListener('submit', (e) => {e.preventDefault();
 		if (city.value === '' || country.value === '' )  {
